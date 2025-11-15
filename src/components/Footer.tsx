@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <img src={logo} alt="Seed Concept" className="h-12 w-12" />
+              <img src={logo} alt="The Seed Concept" className="h-12 w-12" />
               <span className="text-xl font-semibold text-foreground">
-                Seed Concept
+                The Seed Concept
               </span>
             </div>
             <p className="text-muted-foreground">
@@ -50,32 +50,32 @@ const Footer = () => {
             </h3>
             <div className="flex flex-col space-y-3">
               <a
-                href="#"
+                href="https://www.instagram.com/the_seed_concept/"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Instagram className="w-5 h-5" />
-                <span>@seedconcept</span>
+                <span>@the_seed_concept</span>
               </a>
               <a
                 href="mailto:hello@seedconcept.com"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                <span>hello@seedconcept.com</span>
+                <span>theseedconceptbusiness@gmail.com</span>
               </a>
               <a
                 href="tel:+919876543210"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                <span>+91 98765 43210</span>
+                <span>+91 99459 35241</span>
               </a>
             </div>
           </div>
         </div>
 
         <div className="pt-8 border-t border-border text-center text-muted-foreground">
-          <p>&copy; 2025 Seed Concept. All rights reserved.</p>
+          <p>&copy; 2025 The Seed Concept. All rights reserved.</p>
         </div>
       </div>
     </footer>

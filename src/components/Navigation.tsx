@@ -12,9 +12,9 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Seed Concept" className="h-12 w-12" />
+            <img src={logo} alt="The Seed Concept" className="h-12 w-12" />
             <span className="text-xl font-semibold text-foreground hidden sm:inline">
-              Seed Concept
+              The Seed Concept
             </span>
           </div>
           

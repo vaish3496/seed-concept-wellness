@@ -46,14 +46,14 @@ const Hero = () => {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img 
                 src={heroImage} 
-                alt="Woman holding Seed Concept health mix" 
+                alt="Woman holding The Seed Concept health mix" 
                 className="w-full h-auto"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-48 h-48 rounded-3xl overflow-hidden shadow-xl border-4 border-background hidden lg:block">
               <img 
                 src={productImage} 
-                alt="Seed Concept product" 
+                alt="The Seed Concept product" 
                 className="w-full h-full object-cover"
               />
             </div>

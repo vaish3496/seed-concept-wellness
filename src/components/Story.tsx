@@ -8,7 +8,7 @@ const Story = () => {
           <div className="relative rounded-3xl overflow-hidden shadow-2xl">
             <img
               src={productImage}
-              alt="Seed Concept product collection"
+              alt="The Seed Concept product collection"
               className="w-full h-auto"
             />
           </div>
@@ -19,7 +19,7 @@ const Story = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                At Seed Concept, we believe in the power of nature and tradition.
+                At The Seed Concept, we believe in the power of nature and tradition.
                 Our journey began with a simple idea: to bring the goodness of
                 homemade nutrition to every household.
               </p>
