@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "warm-cream": "hsl(var(--warm-cream))",
+        "earth-brown": "hsl(var(--earth-brown))",
+        "sage-green": "hsl(var(--sage-green))",
+        terracotta: "hsl(var(--terracotta))",
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        serif: ['Playfair Display', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
