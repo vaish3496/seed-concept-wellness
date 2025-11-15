@@ -1,13 +1,12 @@
-import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-image.jpg";
 import productImage from "@/assets/product-2.jpg";
 import { Ruler } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="hero" className="min-h-screen pt-24 pb-16 bg-background">
+    <section id="hero" className="pt-24 pb-8 bg-background">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-start lg:items-center">
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl font-bold text-foreground leading-tight">
@@ -17,7 +16,7 @@ const Hero = () => {
                 Calcium & Iron Rich
               </p>
               <p className="text-lg text-muted-foreground max-w-lg">
-                Homemade ingredients. No added sugar. No fortification.
+                Homemade ingredients. No artificial sugar. No fortification.
               </p>
             </div>
 
@@ -29,16 +28,27 @@ const Hero = () => {
             </div>
 
             <div className="space-y-4">
-              <Button 
-                size="lg" 
-                className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all"
+              <a 
+                href="https://wa.me/919945935241"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all font-medium"
               >
                 Buy Now
-              </Button>
-              <div className="flex items-baseline gap-3">
-                <span className="text-4xl font-bold text-foreground">₹299</span>
-                <span className="text-lg text-muted-foreground">/ 500g</span>
+              </a>
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+                <div className="flex items-baseline gap-3">
+                  <span className="text-4xl font-bold text-foreground">₹500</span>
+                  <span className="text-lg text-muted-foreground">/ 500g</span>
+                </div>
+                <div className="flex items-baseline gap-3">
+                  <span className="text-4xl font-bold text-foreground">₹1000</span>
+                  <span className="text-lg text-muted-foreground">/ 1kg</span>
+                </div>
               </div>
+              <p className="text-sm text-muted-foreground">
+                Free shipping for orders above 1kg
+              </p>
             </div>
           </div>
 
