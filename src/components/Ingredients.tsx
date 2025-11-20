@@ -2,7 +2,7 @@ import IngredientCard from "./IngredientCard";
 
 const ingredients = [
   {
-    name: "Ragi",
+    name: "Ragi (Sprouted)",
     icon: "🌾",
     benefits: [
       "Boosts hemoglobin",

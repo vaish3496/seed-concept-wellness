@@ -1,6 +1,11 @@
-import { Video } from "lucide-react";
+import video1 from "../assets/seed concept videos/424ce236-180b-4b74-bfa4-a081083f6b8d.mp4";
+import video2 from "../assets/seed concept videos/5ffbeead-8d30-47df-9836-cd3d3949bee5.mp4";
+import video3 from "../assets/seed concept videos/715e0372-ced6-4afb-ac0b-e29a5e8b53be.mp4";
+import video4 from "../assets/seed concept videos/WhatsApp Video 2025-11-20 at 4.03.59 PM.mp4";
 
 const Reviews = () => {
+  const videos = [video1, video2, video3, video4];
+
   return (
     <section id="reviews" className="py-20 bg-background">
       <div className="container mx-auto px-6">
@@ -13,16 +18,21 @@ const Reviews = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {[1, 2, 3].map((item) => (
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+          {videos.map((video, index) => (
             <div
-              key={item}
-              className="aspect-video rounded-3xl bg-gradient-to-br from-secondary/30 to-accent/20 flex flex-col items-center justify-center space-y-4 border-2 border-dashed border-border p-8"
+              key={index}
+              className="aspect-video rounded-3xl overflow-hidden bg-secondary/30 border border-border shadow-lg"
             >
-              <Video className="w-16 h-16 text-muted-foreground" />
-              <p className="text-muted-foreground text-center">
-                Video Review Coming Soon
-              </p>
+              <video
+                className="w-full h-full object-cover"
+                controls
+                playsInline
+                preload="metadata"
+              >
+                <source src={video} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           ))}
         </div>
