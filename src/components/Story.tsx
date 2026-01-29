@@ -26,13 +26,13 @@ const Story = () => {
               <p>
                 Every ingredient is carefully selected and processed minimally to
                 preserve its natural benefits. We don't believe in artificial
-                fortification or added sugars—just pure, wholesome nutrition the
+                fortification or added sugars, just pure, wholesome nutrition the
                 way nature intended.
               </p>
               <p>
                 Our Health Mix is a testament to generations of wellness wisdom,
                 combined with modern understanding of nutrition. It's not just a
-                product; it's a daily ritual of self-care.
+                product; it's a daily ritual of self care.
               </p>
               <p className="text-foreground font-medium">
                 From our kitchen to yours, with love and wellness.

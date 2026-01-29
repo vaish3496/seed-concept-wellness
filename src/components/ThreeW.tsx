@@ -29,8 +29,8 @@ const ThreeW = () => {
             </div>
             <h3 className="text-2xl font-bold text-foreground">WHERE</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Coarse, homemade-style blend that leaves light residue. No
-              over-processing. Pure, real, and authentic—just like homemade.
+              Coarse, homemade style blend that leaves light residue. No
+              over-processing. Pure, real, and authentic, just like homemade.
             </p>
           </div>
 

@@ -1,6 +1,6 @@
 import video1 from "../assets/seed concept videos/424ce236-180b-4b74-bfa4-a081083f6b8d.mp4";
 import video2 from "../assets/seed concept videos/5ffbeead-8d30-47df-9836-cd3d3949bee5.mp4";
-import video3 from "../assets/seed concept videos/715e0372-ced6-4afb-ac0b-e29a5e8b53be.mp4";
+import video3 from "../assets/seed concept videos/WhatsApp Video 2026-01-28 at 8.24.42 PM.mp4";
 import video4 from "../assets/seed concept videos/WhatsApp Video 2025-11-20 at 4.03.59 PM.mp4";
 
 const Reviews = () => {
